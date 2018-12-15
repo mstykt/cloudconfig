@@ -1,2 +1,6 @@
 server:
   port: 2121
+
+demo-props:
+  foo: bar
+  example: 15
