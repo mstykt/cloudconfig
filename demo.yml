@@ -3,4 +3,4 @@ server:
 
 demo-props:
   foo: bar
-  example: 17
+  example: 15
