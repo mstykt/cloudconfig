@@ -6,10 +6,3 @@ eureka:
     leaseRenewalIntervalInSeconds: 10
     statusPageUrlPath: /actuator/info
     healthCheckUrlPath: /actuator/health
-
-#management.endpoints.web.exposure.include=*
-management:
-  endpoints:
-    web:
-      exposure:
-        include: *
