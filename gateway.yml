@@ -1,0 +1,22 @@
+---
+server:
+  port: ${PORT:8090}
+
+ribbon:
+  ReadTimeout: 100000
+  ConnectionTimeout: 100000
+
+zuul:
+  routes:
+    demo:
+      path: /demo/**
+      serviceId: demo
+      stripPrefix: false
+    service1:
+      path: /abc/**
+      serviceId: service1
+
+---
+
+spring:
+  profiles: dev
