@@ -13,9 +13,8 @@ zuul:
       serviceId: demo
       stripPrefix: false
     service1:
-      path: /abc/**
+      path: /deneme/**
       serviceId: service1
-      stripPrefix: false
 
 ---
 
